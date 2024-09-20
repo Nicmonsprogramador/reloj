@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    height: 100vh;
+    margin: 0;
+    background: #282c34;
+    color:white;
+    font-family: Arial,  sans-serif;
+}
+
+.clock{
+    text-align: center;
+    font-size: 60px;
+    border: 4px solid#61dafb;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #20232a;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+}
+
+#time{
+    font-size: 80px;
+}
